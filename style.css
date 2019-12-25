@@ -1,0 +1,244 @@
+header{
+  position: fixed;
+  background-color: #F63232;
+  padding: 12px;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+ h1{
+  color: white;
+  border: 8px solid white;
+  padding: 6px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+  font-size: 25px;
+}
+
+.banner{
+  position: relative;
+}
+
+.banner img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  /* when something is in written format and then if we use width then the wriiten part might not compress but using 
+  max-width: it has been able to compress; */
+}
+
+.banner .welcome{
+  background-color: #FEB614;
+  color: white;
+  padding: 25px;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  font-size: 35px;
+}
+nav{
+  background-color: white;
+  padding: 20px;
+  position: sticky;
+  top: 80px;
+}
+nav .ul1{
+  white-space: nowrap;
+  margin: 0 auto;  
+}
+nav li{
+  /* border: 8px solid white;
+  border-radius: 10px;
+  padding: 6px; */
+  width: 21%;
+  margin: 0px auto;
+  padding: 0px 20px;
+  display: inline-block;
+  font-size: 26px;
+}
+.join{
+  border: 8px solid;
+  border-block-color: deeppink;
+  color: unset;
+  border-radius: 10px;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 20px;
+}
+main{
+  max-width: 100%;
+  margin: 60px auto;
+  padding: 0px 60px;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+article h2{
+  color: #F63232;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+article p{
+  line-height: 2em;
+  color: #4b4b4b;
+}
+.images{
+  text-align: center;
+  margin: 30px 0;
+}
+.images li{
+  display: inline-block;
+  width: 35%;
+  margin: 0px 5%;
+}
+.images li img{
+  max-width: 100%;
+}
+.joining{
+  background-color: #f4f4f4 ;
+  text-align: center;
+  padding: 60px 20px;
+  color: #4b4b4b;
+}
+.joining h2{
+  font-size: 36px;
+}
+form input{
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid black;
+}
+footer{
+  background: #F63232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* pseudo classes */
+
+.join:hover{
+  text-decoration: underline;
+  background-color: greenyellow;
+}
+.images li:hover{
+  position: relative;
+  top: -15px;
+}
+form input:focus{
+  border: 4px solid red;
+  outline: none;
+}
+form input:valid{
+  border: 4px solid limegreen;
+}
+
+/* pseudo elments */
+
+p::selection{
+  background-color: lime;
+  color: black;
+} 
+
+/*
+@media screen and (max-width: 1400px){
+
+  .banner .welcome{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 960px){
+
+  .banner .welcome{
+    font-size: 28px;
+  }
+  .join{
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 700px){
+
+  .banner .welcome{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+  }
+  .banner .welcome br{
+    display: none;
+  }
+  .banner .welcome span{
+    font-size: 1em;
+  }
+  nav li{
+    font-size: 18px;
+  }
+  .images li{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
+
+}
+
+@media screen and (max-width: 560px){
+
+  .banner .welcome{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+  }
+  .banner .welcome br{
+    display: none;
+  }
+  .banner .welcome span{
+    font-size: 1em;
+  }
+  nav li{
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+  article h2{
+    font-size: 36px;
+  }
+  header, nav{
+    position: relative;
+    top: 0;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
